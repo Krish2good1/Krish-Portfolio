@@ -619,9 +619,13 @@ footer a:hover {
     }
 }
 
+@media (width:1024px) and (height: 1366px){
+    .section {
+        width: 72vh;
+    }
+}
 
-
-@media (width:540px){
+@media (width:540px) and (height: 720px){
     .section {
         width: 114vh;
     }
@@ -633,7 +637,7 @@ footer a:hover {
     }
 }
 
-@media (width:344px){
+@media (width:344px) and (height: 882px) {
     .section {
         width: 49vh;
     }
@@ -644,7 +648,7 @@ footer a:hover {
     }
 }
 
-@media (width:390px){
+@media (width:390px) and (height: 844px){
     .section {
         width: 58vh;
     }
@@ -655,7 +659,7 @@ footer a:hover {
     }
 }
 
-@media (width:360px){
+@media (width:360px) and (height: 740px){
     .section {
         width: 62vh;
     }
