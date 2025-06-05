@@ -619,11 +619,7 @@ footer a:hover {
     }
 }
 
-@media (width:1024px){
-    .section {
-        width: 72vh;
-    }
-}
+
 
 @media (width:540px){
     .section {
