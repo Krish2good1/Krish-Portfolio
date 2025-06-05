@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+    <link rel="stylesheet" href="../converter.css">
+    <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="humberg">
+                <img src="../../images/hamburger.svg" alt="loading">
+                <div class="hamburger-menu">
+                    <ul>
+
+                        <li class="un"> Calculator </li>
+
+                        <a href="../../index.html">
+                            <li> <img class="img-humberg" src="../../images/cal.svg" alt="" srcset=""> Standard </li>
+                        </a>
+                        <a href="../scientific/scientific.html">
+                            <li> <img class="img-humberg" src="../../images/sciencetific.png" alt="" srcset="">
+                                Scientific
+                            </li>
+                        </a>
+                        <a href="../date calculatation/date calculatation.html">
+                            <li> <img class="img-humberg" src="../../images/calendar.png" alt="" srcset=""> Date
+                                Calculation</li>
+                        </a>
+                        <a href="../ai/ai.html">
+                            <li> <img class="img-humberg" src="../../images/ai.png" alt="" srcset=""> Ai calculator</li>
+                        </a>
+
+                        <li class="un"> Converter </li>
+
+                        <a href="../currency/currency.html">
+                            <li> <img class="img-humberg" src="../../images/currency.png" alt="" srcset=""> Currency
+                            </li>
+                        </a>
+                        <a href="../Volume/volume.html">
+                            <li> <img class="img-humberg" src="../../images/volume.png" alt="" srcset=""> Volume</li>
+                        </a>
+                        <a href="../length/length.html">
+                            <li> <img class="img-humberg" src="../../images/length.png" alt="" srcset=""> Length</li>
+                        </a>
+                        <a href="../Weight/Weight.html">
+                            <li> <img class="img-humberg" src="../../images/mass.png" alt="" srcset=""> Weight and Mass
+                            </li>
+                        </a>
+                        <a href="../Temperature/Temperature.html">
+                            <li> <img class="img-humberg" src="../../images/temperature.png" alt="" srcset="">
+                                Temperature
+                            </li>
+                        </a>
+                        <a href="../Energy/Energy.html">
+                            <li> <img class="img-humberg" src="../../images/energy.png" alt="" srcset=""> Energy</li>
+                        </a>
+                        <a href="../area/area.html">
+                            <li> <img class="img-humberg" src="../../images/area.png" alt="" srcset=""> Area</li>
+                        </a>
+                        <a href="../speed/speed.html">
+                            <li> <img class="img-humberg" src="../../images/speed.png" alt="" srcset=""> speed</li>
+                        </a>
+                        <a href="../time/time.html">
+                            <li> <img class="img-humberg" src="../../images/time.png" alt="" srcset=""> Time</li>
+                        </a>
+                        <a href="../power/power.html">
+                            <li> <img class="img-humberg" src="../../images/power.png" alt="" srcset=""> Power</li>
+                        </a>
+                        <a href="../data/data.html">
+                            <li> <img class="img-humberg" src="../../images/data.png" alt="" srcset=""> Data</li>
+                        </a>
+                        <a href="../pressure/pressure.html">
+                            <li> <img class="img-humberg" src="../../images/pressure.png" alt="" srcset=""> Pressure
+                            </li>
+                        </a>
+                        <a href="../angle/angle.html">
+                            <li> <img class="img-humberg" src="../../images/angle.png" alt="" srcset=""> Angle</li>
+                        </a>
+                        <a href="../angle/angle.html">
+                            <li> <img class="img-humberg" src="../../images/angle.png" alt="" srcset=""> Angle</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <h3>Time</h3>
+
+        </div>
+        <div class="output">
+            <div class="result">
+                <input class="result-box input-value " type="text" readonly>
+                <select class="drop-down-manu" id="from">
+
+                    <option>Select</option>
+                    <option value="Milisecond">Milisecond</option>
+                    <option value="Second">Second</option>
+                    <option value="Minutes">Minutes</option>
+                    <option value="Hours">Hours</option>
+                    <option value="Days">Days</option>
+                    <option value="weeks">weeks</option>
+                    <option value="Years">Years</option>
+                </select>
+            </div>
+            <br>
+            <div class="result">
+                <input class="result-box output-value" type="text" readonly>
+                <select class="drop-down-manu" id="to">
+
+                    <option>Select</option>
+                    <option value="Milisecond">Milisecond</option>
+                    <option value="Second">Second</option>
+                    <option value="Minutes">Minutes</option>
+                    <option value="Hours">Hours</option>
+                    <option value="Days">Days</option>
+                    <option value="weeks">weeks</option>
+                    <option value="Years">Years</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <div class="numbers">
+            <div class="number-rows">
+                <button onclick="clearAll()" class="btn">CE</button>
+                <button onclick="clearAll()" class="btn">C</button>
+                <button onclick="clearResult()" class="btn"><img src="../../images/backspace.png"></button>
+            </div>
+
+
+            <div class="number-row">
+                <button onclick="appendValue('7')" class="btn">7</button>
+                <button onclick="appendValue('8')" class="btn">8</button>
+                <button onclick="appendValue('9')" class="btn">9</button>
+            </div>
+
+            <div class="number-row">
+                <button onclick="appendValue('4')" class="btn">4</button>
+                <button onclick="appendValue('5')" class="btn">5</button>
+                <button onclick="appendValue('6')" class="btn">6</button>
+            </div>
+
+            <div class="number-row">
+                <button onclick="appendValue('1')" class="btn">1</button>
+                <button onclick="appendValue('2')" class="btn">2</button>
+                <button onclick="appendValue('3')" class="btn">3</button>
+            </div>
+
+            <div class="number-row">
+                <button onclick="appendValue('0')" class="btn">0</button>
+                <button onclick="appendValue('.')" class="btn">.</button>
+                <button onclick="calculateResult()" class="btn"
+                    style="background-color: rgb(0, 187, 255);">Convert</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="time.js"></script>
+
+</body>
+
+</html>

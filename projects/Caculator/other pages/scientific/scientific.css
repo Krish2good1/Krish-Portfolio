@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* left side css */
+.calculator {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    padding-left: 53px;
+    padding-top: 9px;
+    font-size: 30px;
+}
+
+.inside {
+    padding-left: 20px;
+    padding-top: 0px;
+    margin: 0;
+}
+
+.result-box {
+    height: 10vh;
+    width: 77vw;
+    border: none;
+    font-size: 62px;
+    text-align: right;
+}
+
+.btn {
+    height: 11vh;
+    width: 15vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    background: #ffffff;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background: #007bff;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+
+.humberg {
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1001;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.hamburger-menu {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 2px 0 5px rgba(255, 255, 255, 0.5);
+    overflow-y: auto;
+    transition: left 0.3s ease;
+    z-index: 1000;
+    padding-top: 50px;
+    color: black;
+}
+
+.hamburger-menu.active {
+    left: 0;
+}
+
+.hamburger-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hamburger-menu li {
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.hamburger-menu li:hover {
+    background-color: #aeaeae;
+}
+
+.img-humberg {
+    height: 24px;
+    width: 19px;
+}
+
+.un {
+    text-decoration: underline 1px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* right side css */
+.his {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9px;
+}
+
+.responsive-line {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.history-box {
+    font-size: 34px;
+    margin: 15px;
+    padding: 10px;
+    height: 86vh;
+    /* border: 2px solid black; */
+    overflow-y: auto;
+}
+
+.btn1 {
+    align-self: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 40vh;
+    bottom: 8px;
+    position: fixed;
+}
+
+.history-box button:hover {
+    background-color: #1e6bbe;
+    transition: 0.1s;
+    transform: scale(1.1);
+}
+
+
+.right {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    /* Hide off-screen initially */
+    width: 300px;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease;
+    z-index: 1000;
+}
+
+.right.active {
+    right: 0;
+    /* Slide into view */
+}
+
+.right-history-img {
+    position: absolute;
+    right: 20px;
+    /* Adjust this value for exact placement */
+    top: 10px;
+    /* Adjust for vertical alignment */
+    cursor: pointer;
+    width: 28px;
+    /* Icon size */
+    height: 28px;
+}
+
+
+/* Hide history icon on larger screens */
+@media (min-width: 1000px) {
+    .right {
+        position: static;
+        /* Static positioning for desktop */
+        box-shadow: none;
+        /* Remove shadow */
+        transition: none;
+        /* Disable transition */
+    }
+}
+
+/* responsive mobile and tablet screen */
+@media (max-width: 1200px) {
+    .btn {
+        height: 11.4vh;
+        width: 19vw;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        background: #ffffff;
+        color: #495057;
+        border: 1px solid #ced4da;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        transition: all 0.2s ease-in-out;
+    }
+
+    .result-box {
+        height: 10vh;
+        width: 97vw;
+        border: none;
+        font-size: 62px;
+        text-align: right;
+    }
+
+    .his {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 9px;
+    }
+
+    .responsive-line {
+        width: 100%;
+        height: 1px;
+        background-color: black;
+    }
+
+    .history-box {
+        font-size: 40px;
+        margin: 15px;
+    }
+
+    .btn1 {
+        width: 24vh;
+    }
+}

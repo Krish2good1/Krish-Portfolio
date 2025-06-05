@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <!-- left side section -->
+        <div class="left">
+            <div class="container">
+                <div class="header">
+                    <div class="humberg">
+                        <img src="images/hamburger.svg" alt="loading">
+                        <div class="hamburger-menu">
+                            <ul>
+
+                                <li class="un"> Calculator </li>
+
+                                <a href="#">
+                                    <li> <img class="img-humberg" src="images/cal.svg" alt="" srcset=""> Standard </li>
+                                </a>
+                                <a href="other pages/scientific/scientific.html">
+                                    <li> <img class="img-humberg" src="images/sciencetific.png" alt="" srcset="">
+                                        Scientific
+                                    </li>
+                                </a>
+                                <a href="other pages/date calculatation/date calculatation.html">
+                                    <li> <img class="img-humberg" src="images/calendar.png" alt="" srcset=""> Date
+                                        Calculation</li>
+                                </a>
+                                <a href="other pages/ai/ai.html">
+                                    <li> <img class="img-humberg" src="images/ai.png" alt="" srcset=""> Ai calculator
+                                    </li>
+                                </a>
+
+                                <li class="un"> Converter </li>
+
+                                <a href="other pages/currency/currency.html">
+                                    <li> <img class="img-humberg" src="images/currency.png" alt="" srcset=""> Currency
+                                    </li>
+                                </a>
+                                <a href="other pages/Volume/volume.html">
+                                    <li> <img class="img-humberg" src="images/volume.png" alt="" srcset=""> Volume</li>
+                                </a>
+                                <a href="other pages/length/length.html">
+                                    <li> <img class="img-humberg" src="images/length.png" alt="" srcset=""> Length</li>
+                                </a>
+                                <a href="other pages/Weight/Weight.html">
+                                    <li> <img class="img-humberg" src="images/mass.png" alt="" srcset=""> Weight and
+                                        Mass
+                                    </li>
+                                </a>
+                                <a href="other pages/Temperature/Temperature.html">
+                                    <li> <img class="img-humberg" src="images/temperature.png" alt="" srcset="">
+                                        Temperature
+                                    </li>
+                                </a>
+                                <a href="other pages/Energy/Energy.html">
+                                    <li> <img class="img-humberg" src="images/energy.png" alt="" srcset=""> Energy</li>
+                                </a>
+                                <a href="other pages/area/area.html">
+                                    <li> <img class="img-humberg" src="images/area.png" alt="" srcset=""> Area</li>
+                                </a>
+                                <a href="other pages/speed/speed.html">
+                                    <li> <img class="img-humberg" src="images/speed.png" alt="" srcset=""> speed</li>
+                                </a>
+                                <a href="other pages/time/time.html">
+                                    <li> <img class="img-humberg" src="images/time.png" alt="" srcset=""> Time</li>
+                                </a>
+                                <a href="other pages/power/power.html">
+                                    <li> <img class="img-humberg" src="images/power.png" alt="" srcset=""> Power</li>
+                                </a>
+                                <a href="other pages/data/data.html">
+                                    <li> <img class="img-humberg" src="images/data.png" alt="" srcset=""> Data</li>
+                                </a>
+                                <a href="other pages/pressure/pressure.html">
+                                    <li> <img class="img-humberg" src="images/pressure.png" alt="" srcset=""> Pressure
+                                    </li>
+                                </a>
+                                <a href="other pages/angle/">
+                                    <li> <img class="img-humberg" src="images/angle.png" alt="" srcset=""> Angle</li>
+                                </a>
+                                <a href="other pages/angle/">
+                                    <li> <img class="img-humberg" src="images/angle.png" alt="" srcset=""> Angle</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3>Standard</h3>
+                    <img class="right-history-img" src="images/history.png" alt="" srcset="">
+
+                </div>
+                <div class="result">
+                    <input class="result-box" type="text" readonly>
+                </div>
+                <br>
+                <div class="numbers">
+                    <div class="number-rows">
+                        <button onclick="appendValue('%')" class="btn">%</button>
+                        <button onclick="clearAll()" class="btn">CE</button>
+                        <button onclick="clearAll()" class="btn">C</button>
+                        <button onclick="clearResult()" class="btn"><img src="images/backspace.png"></button>
+                    </div>
+
+                    <div class="number-rows">
+                        <button onclick="appendParentheses()" class="btn">()</button>
+                        <button onclick="appendValue('x^2')" class="btn">x<sup>2 </button>
+                        <button onclick="appendValue('2√x')" class="btn">2√x</button>
+                        <button onclick="appendValue('/')" class="btn">÷</button>
+                    </div>
+
+                    <div class="number-row">
+                        <button onclick="appendValue('7')" class="btn">7</button>
+                        <button onclick="appendValue('8')" class="btn">8</button>
+                        <button onclick="appendValue('9')" class="btn">9</button>
+                        <button onclick="appendValue('*')" class="btn">*</button>
+                    </div>
+
+                    <div class="number-row">
+                        <button onclick="appendValue('4')" class="btn">4</button>
+                        <button onclick="appendValue('5')" class="btn">5</button>
+                        <button onclick="appendValue('6')" class="btn">6</button>
+                        <button onclick="appendValue('-')" class="btn">-</button>
+                    </div>
+
+                    <div class="number-row">
+                        <button onclick="appendValue('1')" class="btn">1</button>
+                        <button onclick="appendValue('2')" class="btn">2</button>
+                        <button onclick="appendValue('3')" class="btn">3</button>
+                        <button onclick="appendValue('+')" class="btn">+</button>
+                    </div>
+
+                    <div class="number-row">
+                        <button onclick="toggleSign()" class="btn">+/-</button>
+                        <button onclick="appendValue('0')" class="btn">0</button>
+                        <button onclick="appendValue('.')" class="btn">.</button>
+                        <button onclick="calculateResult()" class="btn"
+                            style="background-color: rgb(0, 187, 255);">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right side section -->
+        <div class="right">
+            <h3 class="his">History</h3>
+            <div class="responsive-line"></div>
+
+            <div class="history-box">
+                <!-- history will disply here -->
+                <button class="btn1">Clear history</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
