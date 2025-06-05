@@ -310,6 +310,71 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* resopnsive */
+/* small responsive */
+@media (width:1024px) and (height: 1366px) {
+    .section {
+        width: 72vh;
+    }
+}
+
+@media (width:540px) and (height: 720px) {
+    .section {
+        width: 114vh;
+    }
+}
+
+@media (width:853px) {
+    .section {
+        width: 63vh;
+    }
+}
+
+@media (width:344px) and (height: 882px) {
+    .section {
+        width: 49vh;
+    }
+
+    .cover {
+        width: 135vw;
+        height: 12vh;
+    }
+}
+
+@media (width:390px) and (height: 844px) {
+    .section {
+        width: 58vh;
+    }
+
+    .cover {
+        width: 135vw;
+        height: 12vh;
+    }
+}
+
+@media (width:360px) and (height: 740px) {
+    .section {
+        width: 62vh;
+    }
+
+    .cover {
+        width: 135vw;
+        height: 12vh;
+    }
+}
+
+@media (width:1024px) and (height: 2408px) {
+    .section {
+        width: 41vh;
+    }
+
+    .cover {
+        width: 95vw;
+        height: 9vh;
+    }
+}
+
+/* other responsive */
 @media (min-width: 120px) and (max-width: 400px) {
     header {
         background-color: #333;
@@ -616,67 +681,5 @@ footer a:hover {
     footer {
         font-size: 24px;
         width: 98vw;
-    }
-}
-
-@media (width:1024px) and (height: 1366px){
-    .section {
-        width: 72vh;
-    }
-}
-
-@media (width:540px) and (height: 720px){
-    .section {
-        width: 114vh;
-    }
-}
-
-@media (width:853px){
-    .section {
-        width: 63vh;
-    }
-}
-
-@media (width:344px) and (height: 882px) {
-    .section {
-        width: 49vh;
-    }
-
-    .cover {
-        width: 135vw;
-        height: 12vh;
-    }
-}
-
-@media (width:390px) and (height: 844px){
-    .section {
-        width: 58vh;
-    }
-
-    .cover {
-        width: 135vw;
-        height: 12vh;
-    }
-}
-
-@media (width:360px) and (height: 740px){
-    .section {
-        width: 62vh;
-    }
-
-    .cover {
-        width: 135vw;
-        height: 12vh;
-    }
-}
-
-@media (width:1024px) and (height: 2408px){
-    .section {
-        width: 41vh;
-    }
-
-    .cover {
-        width: 95vw;
-        height: 9vh;
     }
 }
