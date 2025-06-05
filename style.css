@@ -5,9 +5,10 @@
 
 header {
     background-color: #333;
-    padding: 10px 20px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 97vw;
 }
 
 .header {
@@ -41,7 +42,7 @@ header {
 
 /* banner, profile-photo and name */
 .profile-box {
-    width: 100%;
+    width: 98vw;
     margin: auto;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -56,8 +57,8 @@ header {
 }
 
 .cover {
-    width: 100%;
-    height: 250px;
+    width: 98vw;
+    height: 33vh;
     object-fit: cover;
 }
 
@@ -201,7 +202,7 @@ header {
 .progress-bar {
     flex-grow: 1;
     background: #e0e0e0;
-    height: 6px;
+    height: 8px;
     margin: 0 10px;
     border-radius: 3px;
     overflow: hidden;
@@ -238,8 +239,8 @@ header {
 .description {
     margin: 20px auto;
     padding: 30px;
-    background-color: #212529; /* Dark grey for a professional and clean background */
-    border: 2px solid #343a40; /* Slightly lighter grey for subtle contrast */
+    background-color: #212529;
+    border: 2px solid #343a40;
     border-radius: 15px;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
     font-family: 'Arial', sans-serif;
@@ -248,12 +249,12 @@ header {
 
 .description h2 {
     font-size: 30px;
-    color: #ffc107; /* Golden yellow for a premium and standout effect */
+    color: #ffc107;
     text-transform: uppercase;
     margin-bottom: 20px;
     text-align: center;
     letter-spacing: 1.5px;
-    border-bottom: 3px solid #ffc107; /* Matches the heading color */
+    border-bottom: 3px solid #ffc107;
     padding-bottom: 10px;
 }
 
@@ -265,7 +266,7 @@ header {
 
 .work-item h3 {
     font-size: 24px;
-    color: #17a2b8; /* Teal blue for headings to create contrast and vibrancy */
+    color: #17a2b8;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -278,17 +279,16 @@ header {
 
 .work-item p {
     font-size: 18px;
-    color: #f8f9fa; /* Light grey for readability against the dark background */
+    color: #f8f9fa;
     line-height: 1.8;
     text-align: justify;
     margin: 0;
 }
 
 .work-content strong {
-    color: #ffc107; /* Golden yellow for emphasis on key points */
+    color: #ffc107;
 }
 
-/* Footer */
 footer {
     background-color: #333;
     padding: 20px 0;
@@ -297,6 +297,7 @@ footer {
     color: white;
     border-radius: 10px;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    width: 98vw;
 }
 
 footer a {
@@ -307,4 +308,364 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+@media (min-width: 120px) and (max-width: 400px) {
+    header {
+        background-color: #333;
+        width: 129vw;
+    }
+
+    .header {
+        justify-content: center;
+    }
+
+    .profile-box {
+        width: 135vw;
+    }
+
+    .cover {
+        width: 135vw;
+        height: 18vh;
+    }
+
+    .details p {
+        font-size: 20px;
+    }
+
+    .btn {
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .section {
+        width: 72vh;
+    }
+
+    .section h2 {
+        font-size: 22px;
+    }
+
+    .left-side .skill span {
+        width: 96px;
+        font-size: 24px;
+    }
+
+    .right-side .skill span {
+        width: 67px;
+        font-size: 24px;
+    }
+
+    .language span {
+        width: 73px;
+        font-size: 24px;
+    }
+
+    .description {
+        width: 116vw;
+    }
+
+    .description h2 {
+        font-size: 35px;
+    }
+
+    .work-item h3 {
+        font-size: 26px;
+    }
+
+    .work-item h3 span {
+        font-size: 26px;
+    }
+
+    .work-item p {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 20px;
+        width: 134vw;
+    }
+
+}
+
+@media (min-width: 400px) and (max-width: 760px) {
+    header {
+        width: 155vw;
+    }
+
+    .header {
+        justify-content: center;
+        gap: 45px;
+    }
+
+    .profile-box {
+        width: 159vw;
+    }
+
+    .cover {
+        width: 160vw;
+        height: 18vh;
+    }
+
+    .details p {
+        font-size: 22px;
+    }
+
+    .btn {
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .section {
+        width: 71vh;
+    }
+
+    .section h2 {
+        font-size: 24px;
+    }
+
+    .left-side .skill span {
+        width: 99px;
+        font-size: 25px;
+    }
+
+    .right-side .skill span {
+        width: 69px;
+        font-size: 25px;
+    }
+
+    .language span {
+        width: 80px;
+        font-size: 26px;
+    }
+
+    .description {
+        width: 142vw;
+    }
+
+    .description h2 {
+        font-size: 37px;
+    }
+
+    .work-item h3 {
+        font-size: 28px;
+    }
+
+    .work-item h3 span {
+        font-size: 28px;
+    }
+
+    .work-item p {
+        font-size: 22px;
+    }
+
+    footer {
+        font-size: 22px;
+        width: 157vw;
+    }
+}
+
+@media (min-width: 766px) and (max-width: 800px) {
+    header {
+        width: 156vw;
+    }
+
+    .header {
+        justify-content: center;
+        gap: 185px;
+    }
+
+    .profile-box {
+        width: 159vw;
+    }
+
+    .cover {
+        width: 160vw;
+        height: 18vh;
+    }
+
+    .details p {
+        font-size: 28px;
+    }
+
+    .btn {
+        text-decoration: none;
+        font-size: 26px;
+    }
+
+    .section {
+        width: 116vh;
+    }
+
+    .section h2 {
+        font-size: 30px;
+    }
+
+    .left-side .skill span {
+        width: 129px;
+        font-size: 31px;
+    }
+
+    .right-side .skill span {
+        width: 92px;
+        font-size: 31px;
+    }
+
+    .language span {
+        width: 103px;
+        font-size: 31px;
+    }
+
+    .description {
+        width: 149vw;
+    }
+
+    .description h2 {
+        font-size: 40px;
+    }
+
+    .work-item h3 {
+        font-size: 32px;
+    }
+
+    .work-item h3 span {
+        font-size: 32px;
+    }
+
+    .work-item p {
+        font-size: 26px;
+    }
+
+    footer {
+        font-size: 26px;
+        width: 157vw;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+    header {
+        width: 95vw;
+    }
+
+    .header {
+        justify-content: center;
+        gap: 73px;
+    }
+
+    .profile-box {
+        width: 96vw;
+    }
+
+    .cover {
+        width: 95vw;
+        height: 14vh;
+    }
+
+    .details p {
+        font-size: 28px;
+    }
+
+    .btn {
+        text-decoration: none;
+        font-size: 23px;
+    }
+
+    .section {
+        width: 66vh;
+    }
+
+    .section h2 {
+        font-size: 30px;
+    }
+
+    .left-side .skill span {
+        width: 129px;
+        font-size: 31px;
+    }
+
+    .right-side .skill span {
+        width: 92px;
+        font-size: 31px;
+    }
+
+    .language span {
+        width: 103px;
+        font-size: 31px;
+    }
+
+    .description {
+        width: 91vw;
+    }
+
+    .description h2 {
+        font-size: 40px;
+    }
+
+    .work-item h3 {
+        font-size: 30px;
+    }
+
+    .work-item h3 span {
+        font-size: 30px;
+    }
+
+    .work-item p {
+        font-size: 24px;
+    }
+
+    footer {
+        font-size: 24px;
+        width: 98vw;
+    }
+}
+
+@media (width:1024px){
+    .section {
+        width: 72vh;
+    }
+}
+
+@media (width:540px){
+    .section {
+        width: 114vh;
+    }
+}
+
+@media (width:853px){
+    .section {
+        width: 63vh;
+    }
+}
+
+@media (width:344px){
+    .section {
+        width: 49vh;
+    }
+
+    .cover {
+        width: 135vw;
+        height: 12vh;
+    }
+}
+
+@media (width:390px){
+    .section {
+        width: 58vh;
+    }
+
+    .cover {
+        width: 135vw;
+        height: 12vh;
+    }
+}
+
+@media (width:360px){
+    .section {
+        width: 62vh;
+    }
+
+    .cover {
+        width: 135vw;
+        height: 12vh;
+    }
 }
