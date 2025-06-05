@@ -669,3 +669,14 @@ footer a:hover {
         height: 12vh;
     }
 }
+
+@media (width:1024px) and (height: 2408px){
+    .section {
+        width: 41vh;
+    }
+
+    .cover {
+        width: 95vw;
+        height: 9vh;
+    }
+}
