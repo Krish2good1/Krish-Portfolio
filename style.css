@@ -562,7 +562,7 @@ footer a:hover {
 
     .cover {
         width: 95vw;
-        height: 16vh;
+        height: 9vh;
     }
 
     .details p {
@@ -570,7 +570,6 @@ footer a:hover {
     }
 
     .btn {
-        text-decoration: none;
         font-size: 23px;
     }
 
@@ -583,17 +582,17 @@ footer a:hover {
     }
 
     .left-side .skill span {
-        width: 129px;
+        width: 132px;
         font-size: 31px;
     }
 
     .right-side .skill span {
-        width: 92px;
+        width: 94px;
         font-size: 31px;
     }
 
     .language span {
-        width: 103px;
+        width: 106px;
         font-size: 31px;
     }
 
