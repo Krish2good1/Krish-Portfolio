@@ -146,7 +146,7 @@ header {
 }
 
 .section {
-    width: 98%;
+    width: 97vw;
     padding: 10px;
     border: 2px solid black;
     border-radius: 24px;
@@ -311,6 +311,7 @@ footer a:hover {
 }
 
 /* resopnsive */
+/* small responsive */
 
 /* other responsive */
 @media (min-width: 120px) and (max-width: 400px) {
@@ -341,7 +342,7 @@ footer a:hover {
     }
 
     .section {
-        width: 143vw;
+        width: 147vw;
     }
 
     .section h2 {
@@ -364,7 +365,7 @@ footer a:hover {
     }
 
     .description {
-        width: 116vw;
+        width: 135vw;
     }
 
     .description h2 {
@@ -385,7 +386,7 @@ footer a:hover {
 
     footer {
         font-size: 20px;
-        width: 134vw;
+        width: 151vw;
     }
 
 }
@@ -560,7 +561,7 @@ footer a:hover {
 
     .cover {
         width: 95vw;
-        height: 14vh;
+        height: 16vh;
     }
 
     .details p {
