@@ -58,7 +58,7 @@ header {
 
 .cover {
     width: 98vw;
-    height: 33vh;
+    height: 27vh;
     object-fit: cover;
 }
 
@@ -312,12 +312,7 @@ footer a:hover {
 
 /* resopnsive */
 /* small responsive */
-@media (width:1024px) and (height: 2408px) {
-    .cover {
-        width: 95vw;
-        height: 8vh;
-    }
-}
+
 
 /* other responsive */
 @media (min-width: 120px) and (max-width: 400px) {
