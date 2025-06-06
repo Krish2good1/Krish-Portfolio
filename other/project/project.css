@@ -221,12 +221,8 @@ footer a:hover {
     }
 
     /* Projects */
-    .projects-container {
-        margin-left: 73px;
-    }
-
     .project-card {
-        width: 106vw;
+        width: 136vw;
     }
 
     .project-title {
@@ -240,6 +236,12 @@ footer a:hover {
     .projects-h1 {
         font-size: 3rem;
         width: 147vw;
+    }
+
+    .project-links a {
+        font-size: 20px;
+        border-radius: 16px;
+        height: 8vh;
     }
 }
 
@@ -259,12 +261,9 @@ footer a:hover {
     }
 
     /* Projects */
-    .projects-container {
-        margin-left: 98px;
-    }
 
     .project-card {
-        width: 106vw;
+        width: 141vw;
     }
 
     .project-title {
@@ -278,6 +277,12 @@ footer a:hover {
     .projects-h1 {
         font-size: 3rem;
         width: 156vw;
+    }
+
+    .project-links a {
+        font-size: 26px;
+        border-radius: 20px;
+        height: 7vh;
     }
 }
 
@@ -297,12 +302,8 @@ footer a:hover {
     }
 
     /* Projects */
-    .projects-container {
-        margin-left: 176px;
-    }
-
     .project-card {
-        width: 106vw;
+        width: 142vw;
     }
 
     .project-title {
@@ -316,6 +317,12 @@ footer a:hover {
     .projects-h1 {
         font-size: 50px;
         width: 156vw;
+    }
+
+    .project-links a {
+        font-size: 28px;
+        border-radius: 20px;
+        height: 7vh;
     }
 }
 
@@ -336,12 +343,12 @@ footer a:hover {
 
     /* Projects */
     .projects-container {
-        margin-left: 155px;
+        margin-left: 43px;
         width: 50vw;
     }
 
     .project-card {
-        width: 67vw;
+        width: 90vw;
     }
 
     .project-title {
@@ -355,5 +362,11 @@ footer a:hover {
     .projects-h1 {
         font-size: 53px;
         width: 95vw;
+    }
+
+    .project-links a {
+        font-size: 28px;
+        border-radius: 20px;
+        height: 5vh;
     }
 }
