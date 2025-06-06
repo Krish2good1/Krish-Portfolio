@@ -42,8 +42,7 @@ header {
 
 /* banner, profile-photo and name */
 .profile-box {
-    width: 99vw;
-    margin: auto;
+    width: 98vw;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -58,7 +57,7 @@ header {
 
 .cover {
     width: 98vw;
-    height: 27vh;
+    height: 33vh;
     object-fit: cover;
 }
 
@@ -289,6 +288,7 @@ header {
     color: #ffc107;
 }
 
+/* footer */
 footer {
     background-color: #333;
     padding: 20px 0;
@@ -311,10 +311,6 @@ footer a:hover {
 }
 
 /* resopnsive */
-/* small responsive */
-
-
-/* other responsive */
 @media (min-width: 120px) and (max-width: 400px) {
     header {
         width: 147vw;
