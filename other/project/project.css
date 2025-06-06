@@ -243,6 +243,8 @@ footer a:hover {
         font-size: 20px;
         border-radius: 16px;
         height: 8vh;
+        text-align: center;
+        align-items: center;
     }
 }
 
@@ -284,6 +286,8 @@ footer a:hover {
         font-size: 26px;
         border-radius: 20px;
         height: 7vh;
+        text-align: center;
+        align-items: center;
     }
 }
 
@@ -324,6 +328,8 @@ footer a:hover {
         font-size: 28px;
         border-radius: 20px;
         height: 7vh;
+        text-align: center;
+        align-items: center;
     }
 }
 
@@ -366,8 +372,16 @@ footer a:hover {
     }
 
     .project-links a {
-        font-size: 28px;
+        font-size: 30px;
         border-radius: 20px;
         height: 5vh;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media (width: 1024px) and (height: 2408px)  {
+    .project-links a {
+        padding-top: 25px;
     }
 }
